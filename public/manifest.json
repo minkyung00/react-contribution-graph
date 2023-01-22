@@ -1,0 +1,9 @@
+{
+  "short_name": "React Contribution Graph",
+  "name": "React Contribution Graph",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
