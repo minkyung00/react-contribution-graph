@@ -1,10 +1,10 @@
 type LabelProps = {
-  fontSize: number;
-  textAnchor: string;
+  fontSize?: number;
+  textAnchor?: string;
   x: number;
   y: number;
-  dy: string;
-  fill: string;
+  dy?: string;
+  fill?: string;
   children?: React.ReactNode;
 };
 
@@ -14,7 +14,7 @@ export function Label({
   x,
   y,
   dy = "0.3em",
-  fill = "#8a8f95",
+  fill = "#9ca3af",
   children,
 }: LabelProps) {
   return (
